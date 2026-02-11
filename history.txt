@@ -1,0 +1,36 @@
+exit
+cd ..
+ll
+ls -lA
+ls
+cd root
+ll
+ls
+ls -l
+ls -a
+cd .config
+exit
+ls
+ls -la
+exit
+ll
+fastfetch
+cd .config
+cd nu
+ll
+cd
+cd .config
+cd nushell/ll
+cd nushell/
+ll
+hx
+gist
+hx 
+git init
+git switch -c main
+git config --global init.defaultBranch main
+git remote set origin https://github.com/MauriceElliott/nushell_config.git
+git remote add origin https://github.com/MauriceElliott/nushell_config.git
+gitdeb "Initial commit"
+git config user.email "mauricemelliott@gmail.com"
+git config user.name "MauriceElliott"
