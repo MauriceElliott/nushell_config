@@ -87,3 +87,6 @@ ll
 git status
 cd nu
 ll
+gitdeb
+exit
+hx
