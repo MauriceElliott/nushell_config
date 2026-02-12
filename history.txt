@@ -92,3 +92,9 @@ exit
 hx
 gitdeb
 hx
+gitdeb "Cleanup of config"
+ext
+exit
+ll
+cls
+git status
