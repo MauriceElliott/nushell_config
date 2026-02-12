@@ -98,3 +98,6 @@ exit
 ll
 cls
 git status
+gitdeb
+touch .gitignore
+hx
