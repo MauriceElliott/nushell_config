@@ -39,8 +39,8 @@ source ~/.config/nushell/zoxide.nu
 # Aliases
 alias hx = helix
 alias cd = z
-# alias ls = eza --icons=always
-# alias ll = ls -la
+alias ls = eza --icons=always
+alias ll = ls -la
 alias gist = git status
 alias gip = git pull origin HEAD and git fetch
 alias cls = clear
@@ -85,3 +85,8 @@ def ripl [find: string, replace: string] {
         sed -i $"s/($find)/($replace)/g" $file
     }
 }
+
+# Startup pizzaz
+echo ""
+fastfetch
+echo ""
